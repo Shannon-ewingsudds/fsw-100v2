@@ -1,0 +1,80 @@
+/* Make the main headline blue and all other headlines green. */
+
+h1.font {
+    color: blue;
+}
+
+.font {
+    color: green;
+}
+
+
+/* Turn the background of the entire page a light cyan.*/
+
+body {
+    background-color: cyan;
+}
+
+
+/*  Use the font family "Georgia" for all headlines.*/
+
+
+/*  Center the text of the main headline and the sub-headline.*/
+
+.font {
+    font-family: Georgia;
+    text-align: center;
+}
+
+
+/*  Give the paragraphs a line-height of 20 pixels.*/
+
+p {
+    line-height: 20px;
+}
+
+
+/*  Make the bold '90 percent' text also the color light coral.*/
+
+#bold {
+    color: lightcoral;
+}
+
+
+/*  Remove the underline from the links. (Hint: Google “How to remove the underline from link (anchor) tags”*/
+
+a:link {
+    text-decoration: none;
+}
+
+
+/*  Make the "You might also like" label all uppercase.*/
+
+#last-p {
+    text-transform: uppercase;
+}
+
+
+/*  Make an underline appear when you hover over a link.*/
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+/*  Make the image 'float' to the left of the body content.*/
+
+
+/*  Add some spacing around the image so the text is not 'pressed against it'.*/
+
+#image {
+    float: left;
+    margin: 5px 5px
+}
+
+
+/*  Change the list items from a "numbered, ordered list" to one that contains just bullets.*/
+
+ol {
+    list-style-type: disc;
+}
