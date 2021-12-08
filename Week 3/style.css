@@ -4,8 +4,16 @@ h1.font {
     color: blue;
 }
 
+
+/*  Use the font family "Georgia" for all headlines.*/
+
+
+/*  Center the text of the main headline and the sub-headline.*/
+
 .font {
     color: green;
+    font-family: Georgia;
+    text-align: center;
 }
 
 
@@ -14,12 +22,6 @@ h1.font {
 body {
     background-color: cyan;
 }
-
-
-/*  Use the font family "Georgia" for all headlines.*/
-
-
-/*  Center the text of the main headline and the sub-headline.*/
 
 .font {
     font-family: Georgia;
