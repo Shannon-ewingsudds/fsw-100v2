@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html>
 
 <head>
     <title>HTML5 Semantics</title>
@@ -6,25 +7,84 @@
 </head>
 
 <body>
-    <div>
-        <h1>Header</h1>
-    </div>
-    <div>
-        <p>Navbar</p>
-        <!-- Remove the <p> and add links -->
-    </div>
-    <div>
-        <h2>Main Section</h2>
-        <div>
-            <h3>Article</h3>
+    <nav>
+        <div class="navlinks">
+            <a href="#Home">Home</a>
+            <a href="#Designers">Designers</a>
+            <a href="./contactUs.html">Contact Us</a>
         </div>
-        <div>
-            <h3>Aside</h3>
-        </div>
+
+
+    </nav>
+    <br>
+    <br>
+    <div>
+        <h1 class="font">Designer Handbags That I love</h1>
     </div>
     <div>
-        <h3>Footer</h3>
-        <p>&copy; 2019 Webdev Student</p>
+        <h2 class="font">Main Section</h2>
+        <h2 class="font" id="designers">Designer Handbags</h2>
+        <table>
+            <thead>
+                <th>Designer Name</th>
+                <th>Founder Name</th>
+                <th>Year Founded</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Gucci</td>
+                    <td>Guccio Gucci</td>
+                    <td>1921</td>
+                </tr>
+                <tr>
+                    <td>Chanel</td>
+                    <td>Coco Chanel</td>
+                    <td>1909</td>
+                </tr>
+                <tr>
+                    <td>LV</td>
+                    <td>Louis Vuitton</td>
+                    <td>1854</td>
+                </tr>
+                <tr>
+                    <td>Dior</td>
+                    <td>Christian Dior</td>
+                    <td>1946</td>
+                </tr>
+            </tbody>
+        </table>
+        <div>
+            <article class="centerd">
+                <header>
+                    <h3 class="font">Vogue</h3>
+                </header>
+                <a href="https://www.vogue.fr/vogue-hommes-en/article/gucci-garden-archetypes-exhibition" title="Gucci 100th Anniversary"></a>
+            </article>
+        </div>
+        <aside>
+            <header>
+                <h3 id="moreInfo">More info</h3>
+            </header>
+            <section>
+                <ul>
+                    <li>
+                        <a href="https://www.dior.com/en_us">Christian Dior</a>
+                    </li>
+                    <li>
+                        <a href="https://www.chanel.com/us/dior">Chanel</a>
+                    </li>
+                    <li>
+                        <a href="https://us.louisvuitton.com/eng-us/homepage">Louis Vuitton</a>
+                    </li>
+                </ul>
+            </section>
+        </aside>
+    </div>
+    <div>
+        <h3 class="font">Footer</h3>
+        <footer class="centered">
+            <p>&copy; 2021 Webdev Student</p>
+        </footer>
     </div>
 </body>
 
