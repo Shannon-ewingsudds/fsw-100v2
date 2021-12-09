@@ -1,7 +1,23 @@
 /* Make the main headline blue and all other headlines green. */
 
-h1.font {
+h1.bluefont {
     color: blue;
+}
+
+
+/*Style at least 1 child element by first selecting its parent element in CSS*/
+
+.parent {
+    width: 97%;
+    border: 2px solid black;
+    padding: 20px;
+}
+
+.child {
+    width: 98%;
+    border: 1px solid green;
+    padding: 10px;
+    margin-top: 1px;
 }
 
 
@@ -13,6 +29,9 @@ h1.font {
 .font {
     color: green;
     font-family: Georgia;
+}
+
+.centerhead {
     text-align: center;
 }
 
@@ -20,12 +39,7 @@ h1.font {
 /* Turn the background of the entire page a light cyan.*/
 
 body {
-    background-color: cyan;
-}
-
-.font {
-    font-family: Georgia;
-    text-align: center;
+    background-color: lightcyan;
 }
 
 
