@@ -1,0 +1,93 @@
+body {
+    font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+    background-color: rgb(226, 225, 225);
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    font-size: 22px;
+}
+
+li a {
+    display: block;
+    color: gray;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: blue;
+}
+
+.navBar {
+    position: fixed;
+    width: 100%;
+    background-color: rgb(223, 221, 221);
+    color: rgb(66, 65, 65);
+    top: 0;
+}
+
+.container {
+    /* display: flex;
+      justify-content: center; */
+    padding-top: 55px;
+    margin: 0 auto;
+    width: 50%;
+}
+
+section {
+    border: 12px solid rgb(241, 241, 241);
+    border-radius: 10px;
+    background-color: white;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    padding: 2;
+    float: left;
+}
+
+.blogName {
+    margin: 2px;
+    color: blue
+}
+
+.date {
+    margin: 5px;
+    color: green;
+}
+
+.blogPost {
+    margin: 15px;
+}
+
+a,
+p,
+h1,
+h2,
+h3,
+h4,
+h5 {
+    max-width: 900px;
+}
+
+.post {
+    color: blue;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer {
+    padding: 100px;
+    text-align: center;
+    color: blue;
+}
