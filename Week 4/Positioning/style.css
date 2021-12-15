@@ -1,6 +1,6 @@
 body {
-    font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
-    background-color: rgb(226, 225, 225);
+    font-family: "Didot", "Garamond", "Palatino", "Bakersville";
+    background-color: #DCDCDC;
 }
 
 ul {
@@ -14,36 +14,45 @@ ul {
 
 li a {
     display: block;
-    color: gray;
+    color: #191970;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 li a:hover {
-    color: blue;
+    color: #FF00FF;
 }
 
 .navBar {
     position: fixed;
     width: 100%;
-    background-color: rgb(223, 221, 221);
-    color: rgb(66, 65, 65);
+    background-color: #008080;
     top: 0;
 }
 
+#mainHead {
+    font-size: 35px;
+    top: 10px;
+    padding-top: 75px;
+    font-weight: bolder;
+    color: #FFA07A;
+    text-align: center;
+    position: relative;
+}
+
 .container {
-    /* display: flex;
-      justify-content: center; */
+    display: flex;
+    justify-content: center;
     padding-top: 55px;
     margin: 0 auto;
-    width: 50%;
+    width: 100%;
 }
 
 section {
-    border: 12px solid rgb(241, 241, 241);
+    border: 12px solid #F5F5F5;
     border-radius: 10px;
-    background-color: white;
+    background-color: #fffafa;
 }
 
 img {
@@ -56,12 +65,12 @@ img {
 
 .blogName {
     margin: 2px;
-    color: blue
+    color: #4B0082;
 }
 
 .date {
     margin: 5px;
-    color: green;
+    color: #008080;
 }
 
 .blogPost {
@@ -75,11 +84,11 @@ h2,
 h3,
 h4,
 h5 {
-    max-width: 900px;
+    max-width: 1000px;
 }
 
 .post {
-    color: blue;
+    color: #1E90FF;
 }
 
 a {
@@ -89,5 +98,5 @@ a {
 footer {
     padding: 100px;
     text-align: center;
-    color: blue;
+    color: #1E90FF;
 }
