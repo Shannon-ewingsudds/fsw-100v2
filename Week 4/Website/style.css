@@ -15,8 +15,8 @@
 
 #business-name {
     color: #FFE4C4;
-    font-family: 'Shadows Into Light', cursive;
-    font-size: 25px;
+    font-family: 'Corinthia', cursive;
+    font-size: 40px;
     background-color: #7B68EE;
     width: 40%;
     height: 25px;
@@ -128,7 +128,8 @@ footer>p {
 }
 
 span {
-    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Corinthia', cursive;
+    font-size: 20px;
 }
 
 footer p a {
