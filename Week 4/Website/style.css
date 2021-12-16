@@ -9,8 +9,8 @@
 }
 
 #cross-img {
-    width: auto;
-    height: 75px;
+    width: 300;
+    height: 100px;
 }
 
 #business-name {
@@ -18,13 +18,13 @@
     font-family: 'Shadows Into Light', cursive;
     font-size: 25px;
     background-color: #7B68EE;
-    width: 25%;
+    width: 40%;
     height: 25px;
     display: inline-block;
     position: relative;
-    margin-top: 0;
+    margin-top: 10px;
     vertical-align: top;
-    padding: 5px;
+    padding: 8px;
 }
 
 header {
@@ -47,9 +47,9 @@ nav {
 nav a {
     color: #FFE4C4;
     font-size: 26px;
-    padding: 10px;
-    margin: 10px;
-    border: 5px solid #FFE4C4;
+    padding: 5px;
+    margin: 5px;
+    border: 2px solid #FFE4C4;
     text-decoration: none;
 }
 
@@ -61,16 +61,16 @@ nav a:hover {
     width: 400px;
     float: left;
     height: 150px;
-    padding-left: 100px;
+    padding-left: 50px;
     padding-right: 0px;
     Margin-top: 30px;
 }
 
 .second-box {
+    width: 400px;
     float: right;
-    width: 100px;
-    height: 150px;
-    padding-left: 100px;
+    height: 75px;
+    padding-left: 20px;
     margin-top: 30px;
 }
 
