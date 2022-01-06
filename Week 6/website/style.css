@@ -1,0 +1,135 @@
+    * {
+    background-color: #708090;
+}
+
+.container {
+    width: 900px;
+    height: 700px;
+}
+
+#cross-img {
+    width: 300;
+    height: 100px;
+}
+
+#business-name {
+    color: #FFE4C4;
+    font-family: 'Corinthia', cursive;
+    font-size: 40px;
+    background-color: #7B68EE;
+    width: 40%;
+    height: 25px;
+    display: inline-block;
+    position: relative;
+    margin-top: 10px;
+    vertical-align: top;
+    padding: 8px;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    height: 75px;
+    top: 0;
+    left: 0;
+    background-color: #7B68EE;
+}
+
+nav {
+    display: inline;
+    float: right;
+    margin-top: 25px;
+    margin-right: 25px;
+    background-color: #7B68EE;
+}
+
+nav a {
+    color: #FFE4C4;
+    font-size: 26px;
+    padding: 5px;
+    margin: 5px;
+    border: 2px solid #FFE4C4;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.first-box {
+    width: 400px;
+    float: left;
+    height: 150px;
+    padding-left: 50px;
+    padding-right: 0px;
+    Margin-top: 30px;
+}
+
+.second-box {
+    width: 400px;
+    float: right;
+    height: 75px;
+    padding-left: 20px;
+    margin-top: 30px;
+}
+
+main h2 {
+    margin-top: 0px;
+    width: 30%;
+    color: #FFE4C4;
+    text-align: center;
+}
+
+section {
+    margin-top: 10px;
+    display: inline;
+    padding: 10px;
+}
+
+section>img {
+    width: 50%;
+    vertical-align: top;
+    padding: 18px;
+    margin-top: 70px;
+}
+
+.ministries li {
+    color: #FFE4C4;
+}
+
+table {
+    border: black solid;
+    text-align: center;
+    width: 300;
+    padding: 10px 10px;
+    margin: 0 auto;
+    color: #ffe4c4;
+}
+
+th,
+td {
+    border: black solid;
+}
+
+footer {
+    width: 900px;
+    height: 50px;
+    text-align: center;
+    position: relative;
+    vertical-align: baseline;
+}
+
+footer>p {
+    font-size: 15px;
+    font-weight: bold;
+    color: #FFE4C4;
+    display: inline;
+}
+
+span {
+    font-family: 'Corinthia', cursive;
+    font-size: 20px;
+}
+
+footer p a {
+    color: #FFE4C4;
