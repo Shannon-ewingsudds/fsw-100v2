@@ -13,12 +13,9 @@
         height: 100px;
     }
     
-    .flex-contanier-head {
-        display: flex;
-        margin-bottom: 20px;
-        padding-bottom: 20px;
-        width: 20rem;
-        height: 20rem;
+    .grid-container-head {
+        display: grid;
+        grid-auto-rows: min-content;
     }
     
     header {
