@@ -1,269 +1,279 @@
-    @import url('https://fonts.googleapis.com/css2?family=Corinthia&display=swap');
-    * {
-        background-color: #708090;
-    }
-    
-    #cross-img {
-        width: 300;
-        height: 100px;
-    }
-    
-    .grid-container-head {
-        display: grid;
-        grid-auto-rows: min-content;
-        justify-content: left;
-    }
-    
-    header {
-        position: fixed;
-        width: 100%;
-        height: 75px;
-        top: 0;
-        left: 0;
-        background-color: #7B68EE;
-    }
-    
-    #business-name {
-        color: #FFE4C4;
-        font-family: 'Corinthia', cursive;
-        font-size: 40px;
-        background-color: #7B68EE;
-        width: 40%;
-        height: 25px;
-        display: inline-block;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        vertical-align: top;
-        padding: 8px;
-    }
-    
-    nav {
-        display: inline;
-        float: right;
-        margin-top: 10px;
-        margin-right: 10px;
-        background-color: #7B68EE;
-    }
-    
-    nav a {
-        color: #FFE4C4;
-        font-size: 10px;
-        padding: 5px;
-        margin: 5px;
-        border: 2px solid #FFE4C4;
-        text-decoration: none;
-    }
-    
-    nav a:hover {
-        text-decoration: underline;
-    }
-    
-    main {
-        display: flex;
-        flex: 1 1 auto;
-    }
-    
-    .flex-contanier {
-        display: flex;
-        width: 100px;
-        margin: 100px;
-        text-align: center;
-        line-height: 10px;
-    }
-    
-    .flex-grid-item {
-        padding: 2rem;
-        margin: 4rem;
-        text-align: center;
-    }
-    
-    h2 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 0px;
-        width: 105%;
-        color: #FFE4C4;
-    }
-    
-    h3 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 0px;
-        width: 105%;
-        color: #FFE4C4;
-    }
-    
-    section {
-        margin-top: 10px;
-        display: inline;
-        padding: 10px;
-    }
-    
-    section>img {
-        width: 20%;
-        vertical-align: top;
-        padding: 18px;
-        margin-top: 50px;
-        align-items: center;
-    }
-    
-    .ministries li {
-        color: #FFE4C4;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        text-align: center;
-    }
-    
-    table {
-        border: black solid;
-        text-align: center;
-        width: 300;
-        padding: 10px 10px;
-        margin: 0 auto;
-        color: #ffe4c4;
-    }
-    
-    th,
-    td {
-        border: black solid;
-    }
-    
-    footer {
-        width: 100%;
-        height: 50px;
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        align-items: center;
-        vertical-align: baseline;
-    }
-    
-    footer>p a {
-        font-size: 15px;
-        font-weight: bold;
-        color: #FFE4C4;
-        display: flex;
-        justify-content: center;
-    }
-    
-    span {
-        font-family: 'Corinthia', cursive;
-        font-size: 20px;
-    }
-    
-    .flex-contanier-footer {
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        ;
-        width: 100%;
-        height: 20rem;
-    }
-    
-    @media only screen and (max-width: 992px) {
+        @import url('https://fonts.googleapis.com/css2?family=Corinthia&display=swap');
+        * {
+            background-color: #708090;
+        }
+        
+        #cross-img {
+            width: 300;
+            height: 100px;
+        }
+        
+        .grid-container-head {
+            display: grid;
+            grid-auto-rows: min-content;
+            justify-content: left;
+        }
+        
+        header {
+            position: fixed;
+            width: 100%;
+            height: 75px;
+            top: 0;
+            left: 0;
+            background-color: #7B68EE;
+        }
+        
         #business-name {
             color: #FFE4C4;
             font-family: 'Corinthia', cursive;
-            font-size: 25px;
+            font-size: 40px;
             background-color: #7B68EE;
             width: 40%;
             height: 25px;
             display: inline-block;
-            position: relative;
             margin-top: 10px;
+            margin-bottom: 10px;
             vertical-align: top;
             padding: 8px;
         }
-    }
-    
-    @media only screen and (max-width: 733px) {
-        #business-name {
-            color: #FFE4C4;
-            font-family: 'Corinthia', cursive;
-            font-size: 15px;
-            background-color: #7B68EE;
-            width: 40%;
-            height: 25px;
-            display: inline-block;
-            position: relative;
-            margin-top: 10px;
-            vertical-align: top;
-            padding: 8px;
-        }
-        nav {
-            display: inline-flex;
-            float: center;
-            margin-top: 10px;
-            margin-right: 10px;
-            background-color: #7B68EE;
-        }
-        nav a {
-            color: #FFE4C4;
-            font-size: 10px;
-            padding: 2px;
-            margin: 2px;
-            border: 1px solid #FFE4C4;
-            text-decoration: none;
-        }
-    }
-    
-    @media only screen and (max-width: 489px) {
-        #business-name {
-            color: #FFE4C4;
-            font-family: 'Corinthia', cursive;
-            font-size: 10px;
-            background-color: #7B68EE;
-            width: 40%;
-            height: 25px;
-            display: inline-block;
-            position: relative;
-            margin-top: 10px;
-            vertical-align: top;
-            padding: 8px;
-        }
+        
         nav {
             display: inline;
-            float: left;
+            float: right;
             margin-top: 10px;
             margin-right: 10px;
             background-color: #7B68EE;
         }
+        
         nav a {
             color: #FFE4C4;
-            font-size: 5px;
-            padding: 2px;
-            margin: 2px;
-            border: 1px solid #FFE4C4;
+            font-size: 10px;
+            padding: 5px;
+            margin: 5px;
+            border: 2px solid #FFE4C4;
             text-decoration: none;
         }
-        .ministries li {
-            display: none;
+        
+        nav a:hover {
+            text-decoration: underline;
         }
-        h2 {
-            display: none;
-        }
-        section {
-            display: none;
-        }
-        #cross-img {
-            width: 50px;
-            height: 50px;
-        }
+        
         main {
             display: flex;
-            justify-content: flex-start;
+            flex: 1 1 auto;
         }
-        .flex-container-1 {
-            display: none;
+        
+        .flex-contanier {
+            display: flex;
+            width: 100px;
+            margin: 100px;
+            text-align: center;
+            line-height: 10px;
         }
-        .flex-contanier-2 {
-            max-width: fit-content;
-            max-height: fit-content;
+        
+        .flex-grid-item-1 {
+            padding: 2rem;
+            margin: 4rem;
+            text-align: center;
+        }
+        
+        .flex-grid-item-2 {
+            padding: 2rem;
+            margin: 4rem;
+            text-align: center;
+        }
+        
+        h2 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 0px;
+            width: 103%;
+            color: #FFE4C4;
+        }
+        
+        h3 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 0px;
+            width: 101%;
+            color: #FFE4C4;
+        }
+        
+        section {
+            margin-top: 10px;
+            display: inline;
+            padding: 10px;
+        }
+        
+        section>img {
+            width: 20%;
+            vertical-align: top;
+            padding: 18px;
+            margin-top: 50px;
+            align-items: center;
+        }
+        
+        .ministries li {
+            color: #FFE4C4;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            text-align: center;
+            font-size: 25px;
+        }
+        
+        table {
+            border: black solid;
+            text-align: center;
+            width: 300;
+            padding: 10px 10px;
+            margin: 0 auto;
+            color: #ffe4c4;
+            font-size: large;
+        }
+        
+        th,
+        td {
+            border: black solid;
+        }
+        
+        footer {
+            width: 100%;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            vertical-align: baseline;
+        }
+        
+        footer>p a {
+            font-size: 15px;
+            font-weight: bold;
+            color: #FFE4C4;
+            display: flex;
+            justify-content: center;
+        }
+        
+        span {
+            font-family: 'Corinthia', cursive;
+            font-size: 20px;
+        }
+        
+        .flex-contanier-footer {
             display: flex;
             justify-content: space-evenly;
             align-items: center;
+            width: 100%;
+            height: 20rem;
         }
-    }
+        
+        @media only screen and (max-width: 992px) {
+            #business-name {
+                color: #FFE4C4;
+                font-family: 'Corinthia', cursive;
+                font-size: 25px;
+                background-color: #7B68EE;
+                width: 40%;
+                height: 25px;
+                display: inline-block;
+                position: relative;
+                margin-top: 10px;
+                vertical-align: top;
+                padding: 8px;
+            }
+        }
+        
+        @media only screen and (max-width: 733px) {
+            #business-name {
+                color: #FFE4C4;
+                font-family: 'Corinthia', cursive;
+                font-size: 15px;
+                background-color: #7B68EE;
+                width: 40%;
+                height: 25px;
+                display: inline-block;
+                position: relative;
+                margin-top: 10px;
+                vertical-align: top;
+                padding: 8px;
+            }
+            nav {
+                display: inline-flex;
+                float: center;
+                margin-top: 10px;
+                margin-right: 10px;
+                background-color: #7B68EE;
+            }
+            nav a {
+                color: #FFE4C4;
+                font-size: 10px;
+                padding: 2px;
+                margin: 2px;
+                border: 1px solid #FFE4C4;
+                text-decoration: none;
+            }
+        }
+        
+        @media only screen and (max-width: 489px) {
+            #business-name {
+                color: #FFE4C4;
+                font-family: 'Corinthia', cursive;
+                font-size: 10px;
+                background-color: #7B68EE;
+                width: 40%;
+                height: 25px;
+                display: inline-block;
+                position: relative;
+                margin-top: 10px;
+                vertical-align: top;
+                padding: 8px;
+            }
+            nav {
+                display: inline;
+                float: left;
+                margin-top: 10px;
+                margin-right: 10px;
+                background-color: #7B68EE;
+            }
+            nav a {
+                color: #FFE4C4;
+                font-size: 5px;
+                padding: 2px;
+                margin: 2px;
+                border: 1px solid #FFE4C4;
+                text-decoration: none;
+            }
+            .ministries li {
+                display: none;
+            }
+            h2 {
+                display: none;
+            }
+            h3 {
+                display: none;
+            }
+            section {
+                display: none;
+            }
+            #cross-img {
+                width: 50px;
+                height: 50px;
+            }
+            main {
+                display: flex;
+                justify-content: flex-start;
+            }
+            .flex-grid-item-1 {
+                display: none;
+            }
+            .flex-grid-item-2 {
+                max-width: fit-content;
+                max-height: fit-content;
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+            }
+        }
