@@ -3,11 +3,6 @@
         background-color: #708090;
     }
     
-    .container {
-        width: 900px;
-        height: 700px;
-    }
-    
     #cross-img {
         width: 300;
         height: 100px;
@@ -16,6 +11,7 @@
     .grid-container-head {
         display: grid;
         grid-auto-rows: min-content;
+        justify-content: left;
     }
     
     header {
@@ -67,42 +63,18 @@
         flex: 1 1 auto;
     }
     
-    .flex-contanier-1 {
-        margin-top: 100px;
+    .flex-contanier {
         display: flex;
-        width: 1rem;
-        height: 1rem;
-    }
-    
-    .flex-contanier-2 {
-        margin-top: 100px;
-        display: flex;
-        width: 1rem;
-        height: 1rem;
+        width: 100px;
+        margin: 100px;
+        text-align: center;
+        line-height: 10px;
     }
     
     .flex-grid-item {
-        padding: 4rem 0;
-        margin: 1rem;
+        padding: 2rem;
+        margin: 4rem;
         text-align: center;
-        flex: 1 1 30rem;
-    }
-    
-    .first-box {
-        width: 400px;
-        float: left;
-        height: 150px;
-        padding-left: 50px;
-        padding-right: 0px;
-        Margin-top: 30px;
-    }
-    
-    .second-box {
-        width: 400px;
-        float: right;
-        height: 75px;
-        padding-left: 20px;
-        margin-top: 30px;
     }
     
     h2 {
@@ -142,6 +114,7 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
+        text-align: center;
     }
     
     table {
@@ -229,7 +202,7 @@
         }
         nav a {
             color: #FFE4C4;
-            font-size: 5px;
+            font-size: 10px;
             padding: 2px;
             margin: 2px;
             border: 1px solid #FFE4C4;
