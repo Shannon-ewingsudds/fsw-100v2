@@ -6,7 +6,7 @@
 }
 
 #header {
-    background-color: grey;
+    background-color: #48D1CC;
     border-radius: 3%;
     grid-column: 1 / 5;
     font-size: 50px;
@@ -16,7 +16,7 @@
 }
 
 #sidebar {
-    background-color: #404040;
+    background-color: #008B8B;
     border-radius: 3%;
     grid-column: 1 / 2;
     font-size: 50px;
@@ -26,7 +26,7 @@
 }
 
 #content {
-    background-color: #404040;
+    background-color: #48D1CC;
     border-radius: 3%;
     grid-column: 2/ 4;
     font-size: 50px;
@@ -36,7 +36,7 @@
 }
 
 #sidebar-2 {
-    background-color: #a6a6a6;
+    background-color: #008B8B;
     border-radius: 3%;
     grid-column: 4 / 5;
     font-size: 50px;
@@ -45,11 +45,11 @@
 }
 
 #footer {
-    background-color: grey;
+    background-color: #E0FFFF;
     border-radius: 3%;
     grid-column: 1 / 5;
     font-size: 50px;
-    color: white;
+    color: #008B8B;
     font-weight: bold;
     padding: 10px;
 }
