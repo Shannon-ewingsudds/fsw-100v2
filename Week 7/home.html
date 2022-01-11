@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>CSS Grid Demo</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/1cd13d4b58.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="home.css">
 </head>
 
@@ -19,11 +19,14 @@
             <a href="#" id="logo">ImportantCo</a>
 
             <nav>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
+                <button class="hamburger" id="hamburger">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul class="nav-ul" id="nav-ul">
+                    <li><i class="fas fa-home"></i><a href="#">Home</a></li>
+                    <li><i class="fas fa-cross"></i><a href="#">Services</a></li>
+                    <li><i class="fas fa-bible"></i><a href="#">About</a></li>
+                    <li><i class="fas fa-address-card"></i><a href="#">Contact</a></li>
                 </ul>
             </nav>
         </header>
@@ -46,31 +49,31 @@
 
         <ul id="features">
             <li>
-                <i class="fa fa-id-card" aria-hidden="true"></i>
+
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
             </li>
             <li>
-                <i class="fa fa-id-card" aria-hidden="true"></i>
+
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
             </li>
             <li>
-                <i class="fa fa-id-card" aria-hidden="true"></i>
+
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
             </li>
             <li>
-                <i class="fa fa-id-card" aria-hidden="true"></i>
+
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
             </li>
             <li>
-                <i class="fa fa-id-card" aria-hidden="true"></i>
+
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
             </li>
         </ul>
     </div>
     <footer>
-        <p>My footer bar</p>
-        <p>Insert Facebook Icon Here</p>
+        <p><i class="fab fa-facebook"></i> Check us out on Facebook</p>
     </footer>
+    <script type="text/javascript" src="./script.js"></script>
 </body>
 
 </html>

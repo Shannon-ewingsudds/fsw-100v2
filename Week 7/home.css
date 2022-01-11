@@ -31,6 +31,20 @@ ul li a {
     padding: 15px;
 }
 
+.hamburger {
+    background-color: transparent;
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+    float: right;
+    display: none;
+}
+
+.hamburger:focus {
+    outline: none;
+}
+
 #logo {
     padding: 15px;
     margin-left: 15px;
@@ -180,6 +194,17 @@ section#info {
 }
 
 @media screen and (max-width: 40em) {
+    .nav-ul {
+        display: none;
+        width: 100%;
+        justify-content: center;
+    }
+    .nav-ul.show {
+        display: flex;
+    }
+    .hamburger {
+        display: block;
+    }
     .main {
         grid-template-rows: auto fit-content(30%) 40% auto;
     }
