@@ -1,15 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Corinthia&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Corinthia&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
 body,
 html {
-    height: max-content;
+    height: 100%;
 }
 
 body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
     display: grid;
-    grid-template-rows: auto 50px;
+    grid-template-rows: auto 33%;
     grid-template-columns: 13% auto;
     grid-template-areas: "sidebar right" "footer footer";
 }
@@ -82,6 +82,12 @@ section#scripture {
     color: #fff;
 }
 
+#content p::first-letter {
+    font-size: 200%;
+    color: #FFFBC5;
+    font-weight: bolder;
+}
+
 #content2 p {
     font-size: small;
 }
@@ -122,22 +128,15 @@ footer {
     display: flex;
     justify-content: space-around;
     text-align: center;
-    grid-column-start: 1;
+    grid-column-start: auto auto auto auto;
     grid-column-end: 3;
     grid-row-start: 4;
-    grid-row-end: 4;
+    grid-row-end: 5;
 }
 
 footer>p {
     font-size: smaller;
     display: inline;
-}
-
-#features {
-    display: grid;
-    grid-template-columns: repeat(5, auto);
-    text-align: center;
-    grid-area: features;
 }
 
 section#info {
@@ -159,72 +158,89 @@ section#info {
         display: none;
     }
     body {
-        grid-template-columns: auto;
+        grid-template-columns: auto auto;
         grid-template-areas: "right" "footer";
-    }
-    .main {
-        grid-template-areas: "head" "hero" "features" "invention"
-    }
-}
-
-@media screen and (max-width: 40em) {
-    .nav-ul {
-        display: none;
-        width: 100%;
-        justify-content: center;
-    }
-    .nav-ul.show {
-        display: flex;
-    }
-    .hamburger {
-        display: block;
-    }
-    .main {
-        grid-template-rows: auto fit-content(30%) 40% auto;
-    }
-    header {
-        grid-template-columns: auto;
-        grid-template-rows: repeat(2, auto);
-    }
-    #logo {
-        margin-left: 0;
-    }
-    nav ul {
-        float: none;
-        padding: 0;
-        margin: 0;
-        width: 100%;
-    }
-    nav ul li a {
-        width: calc(25% - 35px);
-        display: inline-block;
-        font-size: .9em;
-    }
-    section#scripture,
-    section#info {
-        grid-template-columns: auto;
-        text-align: center;
     }
     .main {
         grid-template-areas: "head" "hero" "invention" "features"
     }
-    h1,
-    h2 {
-        font-size: 1.2em;
+    nav {
+        display: flex;
+        font-size: .75rem;
     }
-    #mountain {
-        width: 100px;
-        height: 100px;
+    #logo {
+        font-size: 1rem;
     }
-    #content p,
-    #content2 p {
-        font-size: .9em;
+    @media screen and (max-width: 40em) {
+        .nav-ul {
+            display: none;
+            width: 100%;
+            justify-content: center;
+        }
+        .nav-ul.show {
+            display: flex;
+        }
+        .hamburger {
+            display: block;
+        }
+        .main {
+            grid-template-rows: auto fit-content(30%) 40% auto;
+        }
+        header {
+            grid-template-columns: auto;
+            grid-template-rows: repeat(2, auto);
+        }
+        #logo {
+            margin-left: 0;
+        }
+        nav ul {
+            float: none;
+            padding: 0;
+            margin: 0;
+            width: 100%;
+        }
+        nav ul li a {
+            width: calc(25% - 35px);
+            display: inline-block;
+            font-size: .9em;
+        }
+        section#scripture,
+        section#info {
+            grid-template-columns: auto;
+            text-align: center;
+        }
+        .main {
+            grid-template-areas: "head" "hero" "invention" "features"
+        }
+        h1,
+        h2 {
+            font-size: 1.2em;
+        }
+        #content p,
+        #content2 p {
+            font-size: .9em;
+        }
+        #features {
+            grid-template-columns: repeat(2, auto);
+            grid-template-rows: repeat(4, auto);
+        }
+        ul#features li:nth-child(2),
+        ul#features li:nth-child(1) {
+            grid-column: 1 / span 2;
+        }
+        footer {
+            grid-area: footer;
+            background: #1c9090;
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+            grid-column-start: auto auto auto auto;
+            grid-column-end: 3;
+            grid-row-start: 4;
+            grid-row-end: 5;
+        }
+        footer>p {
+            font-size: 10px;
+            display: inline;
+        }
     }
-    footer {
-        background-color: #41C7C7;
-    }
-    footer p {
-        color: #fff;
-        text-align: center;
-    }
-}
