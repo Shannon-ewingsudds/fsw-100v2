@@ -54,8 +54,7 @@ ul li a {
     text-align: center;
     font-weight: bold;
     display: inline-block;
-    font-family: Corinthia;
-    font-size: 2.3rem;
+    font-size: larger;
 }
 
 header {
@@ -65,7 +64,7 @@ header {
     grid-template-columns: [logo-start] fit-content(50%) [nav-start] auto [nav-end];
 }
 
-section#hero {
+section#scripture {
     background-color: #36ADAD;
     padding: 2em;
     border-top: 5px solid #2EA0A0;
@@ -91,6 +90,11 @@ img {
     max-width: 100%;
     background-size: cover;
     margin: 0 auto;
+}
+
+#zoom {
+    height: 25px;
+    width: 25px;
 }
 
 #lol {
@@ -136,47 +140,6 @@ footer>p {
     grid-area: features;
 }
 
-#features i {
-    font-size: 2em;
-}
-
-ul#features {
-    margin: 0;
-    padding: 0;
-}
-
-ul#features li {
-    background-color: lightgray;
-    padding: 20px;
-    align-self: start;
-}
-
-ul#features li p {
-    color: #4C4C4C;
-}
-
-ul#features li:nth-child(1) {
-    background-color: #E6E6E6;
-}
-
-ul#features li:nth-child(2) {
-    background-color: #D3D3D3;
-    align-self: center;
-}
-
-ul#features li:nth-child(3) {
-    background-color: #CACACA;
-}
-
-ul#features li:nth-child(4) {
-    background-color: #E6E6E6;
-    align-self: center;
-}
-
-ul#features li:nth-child(5) {
-    background-color: #D3D3D3;
-}
-
 section#info {
     background-color: #F2F2F2;
     padding: 2rem;
@@ -201,13 +164,6 @@ section#info {
     }
     .main {
         grid-template-areas: "head" "hero" "features" "invention"
-    }
-    #features {
-        grid-template-columns: repeat(2, auto);
-        grid-template-rows: repeat(3, auto);
-    }
-    ul#features li:nth-child(5) {
-        grid-column: 1 / span 2;
     }
 }
 
@@ -244,7 +200,7 @@ section#info {
         display: inline-block;
         font-size: .9em;
     }
-    section#hero,
+    section#scripture,
     section#info {
         grid-template-columns: auto;
         text-align: center;
@@ -263,14 +219,6 @@ section#info {
     #content p,
     #content2 p {
         font-size: .9em;
-    }
-    #features {
-        grid-template-columns: repeat(2, auto);
-        grid-template-rows: repeat(4, auto);
-    }
-    ul#features li:nth-child(2),
-    ul#features li:nth-child(1) {
-        grid-column: 1 / span 2;
     }
     footer {
         background-color: #41C7C7;
