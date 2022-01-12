@@ -156,12 +156,17 @@ section#info {
     grid-area: invention;
     display: grid;
     grid-template-columns: 1.5fr 1fr;
-    align-items: space-around;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
 }
 
 #worship-vector {
-    width: 30rem;
-    align-self: center;
+    width: 20rem;
+    height: 15rem;
+    padding-left: 1rem;
+    justify-content: flex;
+    justify-content: center;
 }
 
 @media screen and (max-width: 60em) {
@@ -242,6 +247,9 @@ section#info {
         margin: 0 auto;
         color: #F3F1C7;
         font-size: .75rem;
+    }
+    #worship-vector {
+        display: none;
     }
     footer {
         grid-area: footer;
