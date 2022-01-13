@@ -1,244 +1,244 @@
-            @import url('https://fonts.googleapis.com/css2?family=Corinthia&display=swap');
-        @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
-        body,
-        html {
-            height: 100%;
-        }
-        
-        body {
-            margin: 0;
-            font-family: 'Montserrat', sans-serif;
-            display: grid;
-            grid-template-rows: auto 33%;
-            grid-template-columns: 13% auto;
-            grid-template-areas: "sidebar right" "footer footer";
-        }
-        
-        a {
-            text-decoration: none;
-        }
-        
-        ul {
-            list-style-type: none;
-            float: right;
-        }
-        
-        ul li {
-            display: inline;
-        }
-        
-        ul li a {
-            color: #fff;
-            padding: 15px;
-        }
-        
-        .hamburger {
-            background-color: transparent;
-            border: 0;
-            color: #fff;
-            cursor: pointer;
-            font-size: 20px;
-            float: right;
-            display: none;
-        }
-        
-        .hamburger:focus {
-            outline: none;
-        }
-        
-        #logo {
-            padding: 10px;
-            margin-left: 10px;
-            background-color: #E6E6FA;
-            color: #EE82EE;
-            text-align: center;
-            font-weight: bold;
-            display: inline-block;
-            font-size: larger;
-        }
-        
-        header {
-            background-color: #EE82EE;
-            grid-area: head;
-            display: grid;
-            grid-template-columns: [logo-start] fit-content(50%) [nav-start] auto [nav-end];
-        }
-        
-        section#scripture {
-            background-color: #8B008B;
-            padding: 2em;
-            grid-area: hero;
-            display: grid;
-            grid-template-columns: repeat(2, auto);
-        }
-        
-        #content h1 {
-            text-transform: uppercase;
-            color: #FFFBC5;
-        }
-        
-        #content p {
-            color: #fff;
-        }
-        
-        #content p::first-letter {
-            font-size: 200%;
-            color: #FFFBC5;
-            font-weight: bolder;
-        }
-        
-        #content2 p {
-            font-size: small;
-        }
-        
-        img {
-            max-width: 100%;
-            background-size: cover;
-            margin: 0 auto;
-        }
-        
-        #zoom {
-            height: 25px;
-            width: 25px;
-        }
-        
-        #lol {
-            width: 200px;
-            height: 200px;
-        }
-        
-        .sidebar {
-            grid-area: sidebar;
-            background: ;
-            padding: 1em;
-        }
-        
-        .main {
-            grid-area: right;
-            grid-template-rows: 51px fit-content(30%) 40% auto;
-            display: grid;
-            grid-template-areas: "head" "hero" "invention" "features"
-        }
-        
-        footer {
-            grid-area: footer;
-            background: #1c9090;
-            display: flex;
-            justify-content: space-around;
-            text-align: center;
-            grid-column-start: auto auto auto auto;
-            grid-column-end: 3;
-            grid-row-start: 4;
-            grid-row-end: 5;
-        }
-        
-        footer>p {
-            font-size: smaller;
-            display: inline;
-        }
-        
-        section#info {
-            background-color: #F2F2F2;
-            padding: 2rem;
-            grid-area: invention;
-            display: grid;
-            grid-template-columns: 1.5fr 1fr;
-            align-items: space-around;
-        }
-        
-        #worship-vector {
-            width: 30rem;
-            align-self: center;
-        }
-        
-        @media screen and (max-width: 60em) {
-            .sidebar {
+                @import url('https://fonts.googleapis.com/css2?family=Corinthia&display=swap');
+            @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+            body,
+            html {
+                height: 100%;
+            }
+            
+            body {
+                margin: 0;
+                font-family: 'Montserrat', sans-serif;
+                display: grid;
+                grid-template-rows: auto 33%;
+                grid-template-columns: 13% auto;
+                grid-template-areas: "sidebar right" "footer footer";
+            }
+            
+            a {
+                text-decoration: none;
+            }
+            
+            ul {
+                list-style-type: none;
+                float: right;
+            }
+            
+            ul li {
+                display: inline;
+            }
+            
+            ul li a {
+                color: #fff;
+                padding: 15px;
+            }
+            
+            .hamburger {
+                background-color: transparent;
+                border: 0;
+                color: #fff;
+                cursor: pointer;
+                font-size: 20px;
+                float: right;
                 display: none;
             }
-            body {
-                grid-template-columns: auto auto;
-                grid-template-areas: "right" "footer";
+            
+            .hamburger:focus {
+                outline: none;
             }
+            
+            #logo {
+                padding: 10px;
+                margin-left: 10px;
+                background-color: #E6E6FA;
+                color: #EE82EE;
+                text-align: center;
+                font-weight: bold;
+                display: inline-block;
+                font-size: larger;
+            }
+            
+            header {
+                background-color: #EE82EE;
+                grid-area: head;
+                display: grid;
+                grid-template-columns: [logo-start] fit-content(50%) [nav-start] auto [nav-end];
+            }
+            
+            section#scripture {
+                background-color: #8B008B;
+                padding: 2em;
+                grid-area: hero;
+                display: grid;
+                grid-template-columns: repeat(2, auto);
+            }
+            
+            #content h1 {
+                text-transform: uppercase;
+                color: #FFFBC5;
+            }
+            
+            #content p {
+                color: #fff;
+            }
+            
+            #content p::first-letter {
+                font-size: 200%;
+                color: #FFFBC5;
+                font-weight: bolder;
+            }
+            
+            #content2 p {
+                font-size: small;
+            }
+            
+            img {
+                max-width: 100%;
+                background-size: cover;
+                margin: 0 auto;
+            }
+            
+            #zoom {
+                height: 25px;
+                width: 25px;
+            }
+            
+            #lol {
+                width: 200px;
+                height: 200px;
+            }
+            
+            .sidebar {
+                grid-area: sidebar;
+                background: ;
+                padding: 1em;
+            }
+            
             .main {
+                grid-area: right;
+                grid-template-rows: 51px fit-content(30%) 40% auto;
+                display: grid;
                 grid-template-areas: "head" "hero" "invention" "features"
             }
-            nav {
+            
+            footer {
+                grid-area: footer;
+                background: #800080;
                 display: flex;
-                font-size: .75rem;
+                justify-content: space-around;
+                text-align: center;
+                grid-column-start: auto auto auto auto;
+                grid-column-end: 3;
+                grid-row-start: 4;
+                grid-row-end: 5;
             }
-            #logo {
-                font-size: 1rem;
+            
+            footer>p {
+                font-size: smaller;
+                display: inline;
             }
-            @media screen and (max-width: 40em) {
-                .nav-ul {
+            
+            section#info {
+                background-color: #F2F2F2;
+                padding: 2rem;
+                grid-area: invention;
+                display: grid;
+                grid-template-columns: 1.5fr 1fr;
+                align-items: space-around;
+            }
+            
+            #worship-vector {
+                width: 30rem;
+                align-self: center;
+            }
+            
+            @media screen and (max-width: 60em) {
+                .sidebar {
                     display: none;
-                    width: 100%;
-                    justify-content: center;
                 }
-                .nav-ul.show {
-                    display: flex;
-                }
-                .hamburger {
-                    display: block;
-                }
-                .main {
-                    grid-template-rows: auto fit-content(30%) 40% auto;
-                }
-                header {
-                    grid-template-columns: auto;
-                    grid-template-rows: repeat(2, auto);
-                }
-                #logo {
-                    margin-left: 0;
-                }
-                nav ul {
-                    float: none;
-                    padding: 0;
-                    margin: 0;
-                    width: 100%;
-                }
-                nav ul li a {
-                    width: calc(25% - 35px);
-                    display: inline-block;
-                    font-size: .9em;
-                }
-                section#scripture,
-                section#info {
-                    grid-template-columns: auto;
-                    text-align: center;
+                body {
+                    grid-template-columns: auto auto;
+                    grid-template-areas: "right" "footer";
                 }
                 .main {
                     grid-template-areas: "head" "hero" "invention" "features"
                 }
-                h1,
-                h2 {
-                    font-size: 1.2em;
-                }
-                #content p,
-                #content2 p {
-                    font-size: .9em;
-                }
-                #features {
-                    grid-template-columns: repeat(2, auto);
-                    grid-template-rows: repeat(4, auto);
-                }
-                ul#features li:nth-child(2),
-                ul#features li:nth-child(1) {
-                    grid-column: 1 / span 2;
-                }
-                footer {
-                    grid-area: footer;
-                    background: #1c9090;
+                nav {
                     display: flex;
-                    justify-content: space-around;
-                    text-align: center;
-                    grid-column-start: auto auto auto auto;
-                    grid-column-end: 3;
-                    grid-row-start: 4;
-                    grid-row-end: 5;
+                    font-size: .75rem;
                 }
-                footer>p {
-                    font-size: 10px;
-                    display: inline;
+                #logo {
+                    font-size: 1rem;
                 }
-            }
+                @media screen and (max-width: 40em) {
+                    .nav-ul {
+                        display: none;
+                        width: 100%;
+                        justify-content: center;
+                    }
+                    .nav-ul.show {
+                        display: flex;
+                    }
+                    .hamburger {
+                        display: block;
+                    }
+                    .main {
+                        grid-template-rows: auto fit-content(30%) 40% auto;
+                    }
+                    header {
+                        grid-template-columns: auto;
+                        grid-template-rows: repeat(2, auto);
+                    }
+                    #logo {
+                        margin-left: 0;
+                    }
+                    nav ul {
+                        float: none;
+                        padding: 0;
+                        margin: 0;
+                        width: 100%;
+                    }
+                    nav ul li a {
+                        width: calc(25% - 35px);
+                        display: inline-block;
+                        font-size: .9em;
+                    }
+                    section#scripture,
+                    section#info {
+                        grid-template-columns: auto;
+                        text-align: center;
+                    }
+                    .main {
+                        grid-template-areas: "head" "hero" "invention" "features"
+                    }
+                    h1,
+                    h2 {
+                        font-size: 1.2em;
+                    }
+                    #content p,
+                    #content2 p {
+                        font-size: .9em;
+                    }
+                    #features {
+                        grid-template-columns: repeat(2, auto);
+                        grid-template-rows: repeat(4, auto);
+                    }
+                    ul#features li:nth-child(2),
+                    ul#features li:nth-child(1) {
+                        grid-column: 1 / span 2;
+                    }
+                    footer {
+                        grid-area: footer;
+                        background: #800080;
+                        display: flex;
+                        justify-content: space-around;
+                        text-align: center;
+                        grid-column-start: auto auto auto auto;
+                        grid-column-end: 3;
+                        grid-row-start: 4;
+                        grid-row-end: 5;
+                    }
+                    footer>p {
+                        font-size: 10px;
+                        display: inline;
+                    }
+                }

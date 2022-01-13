@@ -122,7 +122,7 @@ img {
 
 footer {
     grid-area: footer;
-    background: #1c9090;
+    background: #800080;
     display: flex;
     justify-content: space-around;
     text-align: center;
@@ -238,7 +238,7 @@ section#info {
     }
     footer {
         grid-area: footer;
-        background: #1c9090;
+        background: #800080;
         display: flex;
         justify-content: space-around;
         text-align: center;
