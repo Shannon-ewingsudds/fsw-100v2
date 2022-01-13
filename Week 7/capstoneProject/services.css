@@ -49,8 +49,8 @@ ul li a {
 #logo {
     padding: 10px;
     margin-left: 10px;
-    background-color: #F3F1C7;
-    color: #298383;
+    background-color: #E6E6FA;
+    color: #EE82EE;
     text-align: center;
     font-weight: bold;
     display: inline-block;
@@ -58,16 +58,15 @@ ul li a {
 }
 
 header {
-    background-color: #41C7C7;
+    background-color: #EE82EE;
     grid-area: head;
     display: grid;
     grid-template-columns: [logo-start] fit-content(50%) [nav-start] auto [nav-end];
 }
 
 section#scripture {
-    background-color: #36ADAD;
+    background-color: #8B008B;
     padding: 2em;
-    border-top: 5px solid #2EA0A0;
     grid-area: hero;
     display: grid;
     grid-template-columns: repeat(2, auto);
@@ -88,7 +87,8 @@ h2 {
 }
 
 table {
-    background-color: #298383;
+    background-color: #800080;
+    ;
     border: black solid;
     text-align: center;
     width: 300;
@@ -121,8 +121,7 @@ img {
 
 .sidebar {
     grid-area: sidebar;
-    background: #1c9090;
-    color: #ffffff;
+    background: #E6E6FA;
     padding: 1em;
 }
 
